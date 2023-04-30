@@ -21,10 +21,10 @@ export default {
      // https://developers.google.com/oauthplayground/
      // Jika api digunakan untuk applikasi, maka credential token akan diambil dari applikasi setelah proses authorization
      credential: {
-          "access_token": "ya29.a0Ael9sCNipFPfWsrEVUpJfPk-2GxPUG3cY0w0F14KJZGQi68PivzBMhmTU12BiAQ0jK0LDppVHybWhl5CVC3lpfuzTCjIAoc4LEq_zkbrNKV_ALAzOFlbyBcXMEey9MYasQLbj2iF1sLiOs3UWsDb4THFdyYBaCgYKAU0SARISFQF4udJhwTe4dAm8jsOjYtiglCS4uQ0163",
+          "access_token": "ya29.a0Ael9sCMdNSRUvyqIm-WSRivT3ObzDN7W76ogFwN5cuU7oqPRmRVTnK9nesYMvRfKsTJ-VLPknhNmb_aid4hrEgo8J5DDC84tQjZ48Dw28KI_dPlI0Jg2hRfc6QolzoOVJpi5sjgjV6BlMNSnjftbMP9dimjBaCgYKAbcSARISFQF4udJhnPm99kba_ix7r722b4bwJQ0163",
           "scope": "https://www.googleapis.com/auth/calendar",
           "token_type": "Bearer",
           "expires_in": 3599,
-          "refresh_token": "1//042jV3_F-AkX3CgYIARAAGAQSNwF-L9Ir1DnsJjkNxKve27lbLVpGpAy0HSKq1xbJtaViRSdf_j8MlqRX901qKGfMm9CukAr3gBE"
+          "refresh_token": "1//04MhePXapCO74CgYIARAAGAQSNwF-L9IrdPXcalVAigYoKgei_Ls89uCu9_c0DVxKKnqqj2J68wTD67gLTSrrdD3xnmLO9c90bZM"
      }
 }

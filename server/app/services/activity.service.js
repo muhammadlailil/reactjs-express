@@ -29,7 +29,7 @@ async function findById(id) {
 
 
 async function deleteBy(id) {
-     return await activityEntity.findByIdAndRemove({
+     return await activityEntity.deleteOne({
           _id : id
      })
 }

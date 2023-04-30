@@ -33,14 +33,19 @@ export default {
 
                return responseHelper.Success(activityService.readable(activity), res)
           } catch (err) {
+               console.log(err)
                next(err)
           }
      },
 
      delete: async (req, res, next) => {
-          const { id } = req.params;
-          if(await activityService.deleteBy(id)) return responseHelper.Message('Data berhasil dihapus',res);
+          try {
+               const { id } = req.params;
+               if (await activityService.deleteBy(id)) return responseHelper.Message('Data berhasil dihapus', res);
 
-          return responseHelper.BadRequest('Data tidak ditemukan',res);
+               return responseHelper.BadRequest('Data tidak ditemukan', res);
+          } catch (err) {
+               next(err)
+          }
      },
 }

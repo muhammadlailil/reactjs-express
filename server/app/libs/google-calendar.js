@@ -48,7 +48,6 @@ export default {
                calendarId: 'primary',
                resource: event,
           }, (err, event) => {
-               if (err) console.log(err)
           });
      },
 
@@ -60,7 +59,6 @@ export default {
                eventId: id,
                resource: event,
           }, (err, event) => {
-               if (err) console.log(err)
           });
      },
 
@@ -71,7 +69,6 @@ export default {
                calendarId: 'primary',
                eventId: id,
           }, (err, event) => {
-               if (err) console.log(err)
           });
      },
 
