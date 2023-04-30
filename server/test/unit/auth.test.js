@@ -28,16 +28,16 @@ describe('POST /auth/login', () => {
 })
 
 describe('POST /auth/register', () => {
-     // it('should return success when parameter valid', async () => {
-     //      await request.post({
-     //           url: '/auth/register',
-     //           body: {
-     //                email: `${strings.randomString(6)}@gmail.com`,
-     //                password: 'P@ssw0rd',
-     //           },
-     //           expect: 200
-     //      })
-     // })
+     it('should return success when parameter valid', async () => {
+          await request.post({
+               url: '/auth/register',
+               body: {
+                    email: `${strings.randomString(6)}@gmail.com`,
+                    password: 'P@ssw0rd',
+               },
+               expect: 200
+          })
+     })
 
      it('should return error when parameter is invalid', async () => {
           await request.post({
